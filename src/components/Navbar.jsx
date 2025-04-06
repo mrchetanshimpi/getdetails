@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link to={"/contact"} className='nav-elements element4'>Contact</Link>
       </div>
       <div className='s-nav-container'>
-        <button className='login-btn'>Login / Sign Up</button>
+        <button className='login-btn'> <Link to={"/login"}>Login</Link> / <Link to={"/register"}>Signup</Link></button>
         <button className='add-btn'>Add Your Business</button>
       </div>
     </div>

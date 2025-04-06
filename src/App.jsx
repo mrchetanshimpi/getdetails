@@ -8,6 +8,8 @@ import Home from './components/Home.jsx'
 import About from './components/About.jsx'
 import Services from './components/Services.jsx'
 import Contact from './components/Contact.jsx'
+import Login from './pages/Login.jsx'
+import Register from './pages/Register.jsx'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path={"/services"} element={<Services />} />
         <Route path={"/contact"} element={<Contact />} />
         <Route path={"/categories"} element={<Categories />} />
+        <Route path={"/login"} element={<Login />} />
+        <Route path={"/register"} element={<Register />} />
         <Route path={"/search"} element={<Searchbar />} />
       </Routes>
     </div>
