@@ -13,7 +13,7 @@
 }
 .searchbar-container{
     width: 80vw;
-    height: 30vh;
+    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -74,4 +74,113 @@
 .s-name{
     color: rgb(0, 123, 255);
     margin-left: 0.4rem;
+}
+
+/* Responsiveness */
+@media (max-width: 1000px){
+    .heading1{
+        font-size:2.3rem;
+    }
+    .heading2{
+        font-size: 1.1rem;
+    }
+    .input-fields input{
+        width: 17rem;
+        height: 2.7rem;
+    }
+    .input-fields button{
+        width: 5rem;
+        height: 2.7rem;
+    }
+    .main-container{
+        height: 32vh;
+    }
+
+}
+
+@media (max-width: 800px){
+    .heading1{
+        font-size:2rem;
+    }
+    .heading2{
+        font-size: 1rem;
+    }
+    .input-fields input{
+        width: 14rem;
+        height: 2.5rem;
+    }
+    .input-fields button{
+        width: 4rem;
+        height: 2.5rem;
+    }
+    .main-container{
+        height: 30vh;
+    }
+
+}
+
+@media (max-width: 670px){
+    .heading1{
+        font-size:1.7rem;
+    }
+    .heading2{
+        font-size: 0.9rem;
+    }
+    .input-fields input{
+        width: 13rem;
+        height: 2.4rem;
+    }
+    .input-fields button{
+        width: 4rem;
+        font-size: 0.8rem;
+        height: 2.4rem;
+    }
+    .main-container{
+        height: 28vh;
+    }
+}
+
+
+@media (max-width: 570px){
+    .heading1{
+        font-size:1.4rem;
+    }
+    .heading2{
+        font-size: 0.8rem;
+    }
+    .input-fields input{
+        width: 11rem;
+        height: 2.2rem;
+    }
+    .input-fields button{
+        width: 3.5rem;
+        font-size: 0.7rem;
+        height: 2.2rem;
+    }
+    .main-container{
+        height: 26vh;
+    }
+}
+
+@media (max-width: 470px){
+    .heading1{
+        font-size:1.1rem;
+    }
+    .heading2{
+        font-size: 0.65rem;
+    }
+    .input-fields input{
+        width: 8rem;
+        height: 2.2rem;
+        font-size: 0.6rem;
+        padding-left: 0.5rem;
+    }
+    .input-fields button{
+        width: 3.5rem;
+        font-size: 0.7rem;
+        height: 2.2rem;
+    }
+    .main-container{
+        height: 20vh;
+    }
 }
