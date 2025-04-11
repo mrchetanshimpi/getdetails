@@ -1,7 +1,7 @@
 const express = require("express");
-const mongoose = require("mongoose");
 const cors = require("cors");
 const morgan = require("morgan");
+const cookieParser = require("cookie-parser");
 const connectDb = require("./config/db");
 require("dotenv").config("./config/.env");
 
@@ -13,6 +13,7 @@ connectDb();
 // middleware that must need
 app.use(express.json());
 app.use(cors());
+app.use(cookieParser());
 app.use(morgan("dev"));
 
 // routes we use
