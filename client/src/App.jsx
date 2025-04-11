@@ -1,13 +1,13 @@
 
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Categories from './components/Categories.jsx'
+import Categories from './pages/Categories.jsx'
 import Navbar from './components/Navbar.jsx'
 import Searchbar from './components/Searchbar.jsx'
-import Home from './components/Home.jsx'
-import About from './components/About.jsx'
-import Services from './components/Services.jsx'
-import Contact from './components/Contact.jsx'
+import Home from './pages/Home.jsx'
+import About from './pages/About.jsx'
+import Services from './pages/Services.jsx'
+import Contact from './pages/Contact.jsx'
 import Login from './pages/Login.jsx'
 import Register from './pages/Register.jsx'
 
