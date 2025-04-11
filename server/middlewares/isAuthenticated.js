@@ -6,7 +6,7 @@ const isAuthenticated = (req, res, next) => {
       const token = authHeader.split(" ")[1]; //bearer token coming from here
       if (token) {
         // here compare jwt token
-
+        jwt.verify(token, process.env.JWT_SECRET);
         return next();
       }
     }
